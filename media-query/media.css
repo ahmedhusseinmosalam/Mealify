@@ -1,0 +1,206 @@
+/* home-media */
+@media screen and (min-width:995px) {
+   
+    .home{
+        background-color: #EEEEEE;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        
+    }
+    .home .home-txt .home-btn{
+       
+        justify-content: flex-start;
+    }
+
+    .home .container{
+        flex-direction: row;
+
+    }
+    .home .home-txt{
+        text-align: left;
+        width: 55%; 
+    }
+    .home .home-img{
+        width: 40%;
+    }
+   
+ 
+}
+
+@media screen and (min-width:1280px) {
+    .navbar .links{
+        display: inline;
+    }
+    .navbar .icon .setting{
+        display: none;
+    }
+ 
+
+    
+}
+/* chef-media */
+@media screen and (min-width:768px) {
+    .chefs .chef-cards {
+        display: grid;
+        grid-template-areas: "chef1 chef2"  "chef3 .";
+        gap: 30px;
+    }
+
+ 
+}
+@media screen and (min-width:995px) {
+    .chefs .chef-cards {
+        display: grid;
+        grid-template-areas: "chef1 chef2"  "chef3 .";
+        gap: 30px;
+    }
+    .chefs .chef-cards {
+        display: grid;
+        grid-template-areas: "chef1 chef2 chef3";
+        gap: 30px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .chefs .chef-cards {
+        display: grid;
+        grid-template-areas: "chef1 chef2 chef3 " ;
+        column-gap: 30px;
+    }
+}
+
+
+/* Gallary-media */
+
+
+@media screen and (max-width:1400px) {
+    .gallary .gallary-img{
+        height: 1025px;
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .gallary .gallary-img{
+        height: 860px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .gallary .gallary-img{
+        height: 1400px;
+    }
+    .gallary .gallary-img picture {
+        width: calc(calc(100% - var(--gap)) / 2);
+    }
+    .pizza{
+        order: 1;
+    }
+    .burger{
+        order: 2;
+    }
+    .pizza-slices{
+        order: 3;
+    }
+    .omelette{
+        order: 4;
+    }
+    .steak{
+        order: 5;
+    }
+    .fried{
+        order: 6;
+    } 
+    .kofta{
+        order: 7;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .gallary .gallary-img{
+        height: auto;
+    }
+    .gallary .gallary-img picture {
+        width: 100%;
+    }
+    
+}
+/* contact-media */
+@media screen and (min-width:1280px){
+.contact .details .box{
+    width: 49%;      
+}
+}
+@media screen and (min-width:1280px) {
+.contact .container .details{
+    padding-block: 15px;
+}
+
+.contact .container .inputs{
+    display: flex;
+    column-gap: 20px;
+}
+.contact .container .inputs input:last-child{
+    margin-top: 0;
+}
+.contact .container .inputs > input{
+    width: 50%;
+}
+.contact .details .contant #ppp{
+    font-size: 16px;
+}
+
+.subscription{
+    
+    width: 50%; 
+}
+.contact-details {
+
+    width: 25%;
+}
+}
+/* footer-media */
+@media screen and (min-width:1280px) {
+ 
+
+
+    .footer .container .subscription .subscription-tools {
+        display: flex;
+        column-gap: 4px;
+    }
+
+    .footer .container .subscription .subscription-tools input{
+        padding-block: 9px;
+        padding-inline: 7px;
+        font-size: 13.333px;
+        width: 76%;
+        background-color: #fff;
+        outline: none;
+        border: none;
+        color: RGB(33, 37, 41);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .footer .container .subscription .subscription-tools button{
+        background-color: #CE1111;
+        padding: 7px 15px;
+        width: 20%;
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0;
+        display: flex;
+    }
+    .footer .container{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .container .about{
+        
+        width: 25%;
+    }
+    
+
+    
+}
